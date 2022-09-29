@@ -36,7 +36,6 @@ main {
         }
     }
     }
-    
 }
 .date {
     display: grid;
@@ -86,5 +85,32 @@ main {
         height: 50px;
         margin-top: 130px;
         }
+    }
+}
+@media only screen and (min-width:768px) {
+    .card {
+        width: 50%;
+    .box-card {
+        
+        .box {
+        width: 70%;
+        margin-left: 90px;
+        }
+    }
+    }
+    .date {
+        margin: 0 95px 0 95px;
+    }
+    .icons {
+        margin-top: 135px;
+        min-height: 100px;
+    }
+}
+@media only screen and (min-width:1024px) {
+    .card {
+        margin-left: 150px;
+    }
+    .date {
+        margin: 0 210px 0 210px;
     }
 }
