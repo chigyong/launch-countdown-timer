@@ -68,7 +68,7 @@ main {
     margin: 100px 0 0 200px;
   }
   .card .box-card {
-    margin-left: 250px;
+    margin-left: 150px;
     width: 50%;
   }
   .card .box-card .box {
@@ -77,8 +77,7 @@ main {
     text-align: center;
   }
   .date {
-    padding: 0;
-    margin: 20px 450px 10px 430px;
+    padding: 10px 150px 0 150px;
   }
   .icons {
     height: 250px;
