@@ -23,14 +23,12 @@ main {
 .box-card {
     display: grid;
     grid-template-columns: repeat(4,1fr);
-
     .box {
         border: none;
         margin: 5px;
         padding: 10px;
         width: 70%;
         background-color: hsl(236, 21%, 26%);
-
         p {
             font-size: 30px;
             text-align: center;
