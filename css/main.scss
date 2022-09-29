@@ -4,6 +4,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Red Hat Text', sans-serif;
+    
 }
 body {
     background-image: url(../images/bg-stars.svg);
@@ -54,8 +55,10 @@ main {
     img {
         padding: 10px;
         margin-top: 100px;
+        cursor: pointer;
     }
 }
+//Device with the width of 1440px
 @media only screen and (min-width:1440px) {
 main {
     word-spacing: 10px;
@@ -65,7 +68,7 @@ main {
     margin: 100px 0 0 200px;
 
 .box-card {
-    margin-left: 150px;
+    margin-left: 200px;
     width: 50%;
 
 .box {
@@ -76,7 +79,7 @@ main {
 }     
 }
 .date{
-    padding: 10px 150px 0 150px;
+    padding: 10px 170px 0 200px;
     
 }
 .icons {
@@ -86,7 +89,12 @@ main {
         margin-top: 130px;
         }
     }
+    img:hover {
+        background-color: hsl(345, 95%, 68%);
+        border-radius: 20px;
+    }
 }
+//Device with the width of 768px
 @media only screen and (min-width:768px) {
     .card {
         width: 50%;
@@ -99,18 +107,19 @@ main {
     }
     }
     .date {
-        margin: 0 95px 0 95px;
+        margin: 0 110px 0 90px;
     }
     .icons {
         margin-top: 135px;
         min-height: 100px;
     }
 }
+//Device with the width of 1024px
 @media only screen and (min-width:1024px) {
     .card {
         margin-left: 150px;
     }
     .date {
-        margin: 0 210px 0 210px;
+        margin: 0 235px 0 220px;
     }
 }
