@@ -22,10 +22,11 @@ main {
     margin: 100px 0 0 20px;
     text-align: center;
     .box {
-        border: solid;
+        border: none;
         margin: 5px;
         padding: 10px;
         width: 70%;
+        background-color: hsl(236, 21%, 26%);
 
         p {
             font-size: 30px;

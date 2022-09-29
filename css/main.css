@@ -25,10 +25,11 @@ main {
   text-align: center;
 }
 .card .box {
-  border: solid;
+  border: none;
   margin: 5px;
   padding: 10px;
   width: 70%;
+  background-color: hsl(236deg, 21%, 26%);
 }
 .card .box p {
   font-size: 30px;
