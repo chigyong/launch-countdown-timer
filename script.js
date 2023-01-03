@@ -1,5 +1,5 @@
 //Target Date in Milliseconds
-const countdownDate = new Date("December 31, 2022 00:00:01").getTime();
+const countdownDate = new Date("December 31, 2023 00:00:01").getTime();
 
 
 
